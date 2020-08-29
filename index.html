@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>JS Stack Calc</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="stack.js"></script>
+	<script type="text/javascript" src="logic.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="col-md-8">
+		<input type="text" name="result" placeholder="Result" class="col-md-4" class="input-form" id="result" disabled><br><br>
+		<input type="number" name="value" placeholder="Please Enter the second operand" class="col-md-4" class="input-form" id="value"><br><br>
+		<button class="btn btn-primary btn-lg"  onclick="div()">/</button>
+		<button class="btn btn-primary btn-lg"  onclick="multi()">*</button>
+		<button class="btn btn-primary btn-lg"  onclick="plus()">+</button>
+		<button class="btn btn-primary btn-lg"  onclick="minus()">-</button>
+		<button class="btn btn-primary btn-lg"  onclick="redo()">Redo</button>
+		<button class="btn btn-primary btn-lg"  onclick="undo()">Undo</button>		
+	</div>
+
+</body>
+</html>
